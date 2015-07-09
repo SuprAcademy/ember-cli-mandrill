@@ -19,6 +19,13 @@ module.exports = function(environment) {
     }
   };
 
+  ENV['mandrill'] = {
+    host: 'smtp.mandrillapp.com',
+    port: 587,
+    username: 'djbradyla@gmail.com',
+    password: 'fAYDGli8RCVZfWMTz76vnQ'
+  };
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
