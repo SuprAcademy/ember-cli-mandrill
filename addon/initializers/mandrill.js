@@ -1,5 +1,9 @@
-export function initialize(/* container, application */) {
-  // application.inject('route', 'foo', 'service:foo');
+import Mandrill from '../services/mandrill';
+
+export function initialize(registry, application) {
+  registry.register("mandrill: main", Mandrill);
+  application.inject('route', 'mandrill', 'mandrill:main');
+  application.inject('controller', 'mandrill', 'mandrill:main');
 }
 
 export default {
