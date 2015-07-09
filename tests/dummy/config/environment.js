@@ -22,14 +22,14 @@ module.exports = function(environment) {
   ENV['mandrill'] = {
     api: {
       host: 'https://mandrillapp.com/api/1.0/',
-      key: 'fAYDGli8RCVZfWMTz76vnQ'
+      key: ''
     },
 
     smtp: {
       host: 'smtp.mandrillapp.com',
       port: 587,
-      username: 'djbradyla@gmail.com',
-      password: 'fAYDGli8RCVZfWMTz76vnQ'
+      username: '',
+      password: ''
     }
 
   };

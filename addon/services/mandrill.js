@@ -15,6 +15,8 @@ export default Ember.Service.extend({
       },
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
 
   },
@@ -28,6 +30,8 @@ export default Ember.Service.extend({
       data: email
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -40,6 +44,8 @@ export default Ember.Service.extend({
       data: email
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -52,6 +58,8 @@ export default Ember.Service.extend({
       data: query
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -67,6 +75,8 @@ export default Ember.Service.extend({
       data: email
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -82,6 +92,8 @@ export default Ember.Service.extend({
       data: email
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -97,6 +109,8 @@ export default Ember.Service.extend({
       data: email
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -109,6 +123,8 @@ export default Ember.Service.extend({
       data: email
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -124,6 +140,8 @@ export default Ember.Service.extend({
       data: query
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -139,6 +157,8 @@ export default Ember.Service.extend({
       data: query
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   },
 
@@ -151,7 +171,9 @@ export default Ember.Service.extend({
       data: query
     }).then(function(response) {
       return response;
+    }, function(error) {
+      return error;
     });
   }
-  
+
 });
