@@ -1,10 +1,8 @@
 export function initialize(instance) {
-  let config = instance.container.loookupFactory('config:environment');
+  let config = instance.container.lookupFactory('config:environment');
   let service = instance.container.lookup('mandrill:main');
-  service.set('host', config.mandrill.host);
-  service.set('port', config.mandrill.port);
-  service.set('username', config.mandrill.username);
-  service.set('password', config.mandrill.password);
+  service.set('apiHost', config.mandrill.api.host);
+  service.set('apiKey', config.mandrill.api.key);
 }
 
 export default {

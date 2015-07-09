@@ -20,10 +20,18 @@ module.exports = function(environment) {
   };
 
   ENV['mandrill'] = {
-    host: 'smtp.mandrillapp.com',
-    port: 587,
-    username: 'djbradyla@gmail.com',
-    password: 'fAYDGli8RCVZfWMTz76vnQ'
+    api: {
+      host: 'https://mandrillapp.com/api/1.0/',
+      key: 'fAYDGli8RCVZfWMTz76vnQ'
+    },
+
+    smtp: {
+      host: 'smtp.mandrillapp.com',
+      port: 587,
+      username: 'djbradyla@gmail.com',
+      password: 'fAYDGli8RCVZfWMTz76vnQ'
+    }
+
   };
 
   if (environment === 'development') {
