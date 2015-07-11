@@ -1,11 +1,15 @@
 # ember-cli-mandrill
+<<<<<<< HEAD
 
 This addon is the drop-in-and-use client implementation of Mandrill API for Ember.js. It integrates the service into your Ember.js web app which is proxying to the Mandrill and allows you to query for data with native-like API objects.
 
+=======
+>>>>>>> 7f77bf055c0f57d9f647e510880e39df8fa0929d
 
 
 ## Installation
 
+<<<<<<< HEAD
 ```
 ember install ember-cli-mandrill
 ```
@@ -46,6 +50,9 @@ this.mandrill.send(newEmail).then(function(response) {
 The list of available actions:
 
 __PAY ATTENTION: You don't need to pass your API key to any of the methods!__
+=======
+* ember install ember-cli-mandril
+>>>>>>> 7f77bf055c0f57d9f647e510880e39df8fa0929d
 
 What objects to pass to corresponding methods and how do they look, you should directly look up on [Messages Calls API](https://mandrillapp.com/api/docs/messages.JSON.html).
 
