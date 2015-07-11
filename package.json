@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-mandrill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mandrill API for Ember.js web apps.",
   "directories": {
     "doc": "doc",
@@ -36,7 +36,11 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "mandrill",
+    "email",
+    "mailchimp",
+    "transactional email"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.0.0"
