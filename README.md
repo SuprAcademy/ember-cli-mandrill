@@ -35,7 +35,7 @@ ENV['mandrill'] = {
 
 ## Addon API and How-to-Use
 
-Currently, only (Messages Calls API)[https://mandrillapp.com/api/docs/messages.JSON.html] is fully implemented.
+Currently, only [Messages Calls API](https://mandrillapp.com/api/docs/messages.JSON.html) is fully implemented.
 All methods return a Promise, so you can do this:
 ```
 this.mandrill.send(newEmail).then(function(response) {
